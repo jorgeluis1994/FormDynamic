@@ -8,6 +8,8 @@
 
   <div *ngFor="let fields of item.fieldSection" >
 
+    {{fields.name}}
+
     <ng-container  [ngSwitch]="fields.type">
 
     </ng-container>
