@@ -1,0 +1,20 @@
+<p>Formulario Dynamico</p>
+
+<form (ngSubmit)="onSubmit()" >
+
+  <div *ngFor="let item of formulario.structure.fields" >
+
+    {{item.name}}
+
+  <div *ngFor="let fields of item.fieldSection" >
+
+    <ng-container  [ngSwitch]="fields.type">
+
+    </ng-container>
+
+
+  </div>
+
+  </div>
+
+</form>
