@@ -38,22 +38,125 @@ export class FormsDynamicComponent {
               placeholder: 'Ingresa tu nombre'
             },
             {
+              id: 2,
+              name: 'Edad',
+              type: 'number',
+              class: '',
+              label: 'Edad',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu edad'
+            },
+            {
               id: 1,
               name: 'Nombre',
-              type: 'select',
+              type: 'text',
               class: '',
               label: 'Nombre',
               style: '',
               value: '',
               requiere: false,
-              options:[{
-                label:'Selecciona un tipo',
-                value:''
-              },{
-                label:'Selecciona un tipo',
-                value:''
-              }],
               placeholder: 'Ingresa tu nombre'
+            },
+            {
+              id: 2,
+              name: 'Edad',
+              type: 'number',
+              class: '',
+              label: 'Edad',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu edad'
+            },
+            {
+              id: 1,
+              name: 'Nombre',
+              type: 'text',
+              class: '',
+              label: 'Nombre',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu nombre'
+            },
+            {
+              id: 2,
+              name: 'Edad',
+              type: 'number',
+              class: '',
+              label: 'Edad',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu edad'
+            },
+            {
+              id: 1,
+              name: 'Nombre',
+              type: 'text',
+              class: '',
+              label: 'Nombre',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu nombre'
+            },
+            {
+              id: 2,
+              name: 'Edad',
+              type: 'number',
+              class: '',
+              label: 'Edad',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu edad'
+            },
+            {
+              id: 1,
+              name: 'Nombre',
+              type: 'text',
+              class: '',
+              label: 'Nombre',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu nombre'
+            },
+            {
+              id: 2,
+              name: 'Edad',
+              type: 'number',
+              class: '',
+              label: 'Edad',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu edad'
+            },
+            {
+              id: 1,
+              name: 'Nombre',
+              type: 'text',
+              class: '',
+              label: 'Nombre',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu nombre'
+            },
+            {
+              id: 2,
+              name: 'Edad',
+              type: 'number',
+              class: '',
+              label: 'Edad',
+              style: '',
+              value: '',
+              requiere: false,
+              placeholder: 'Ingresa tu edad'
             }
           ]
         }

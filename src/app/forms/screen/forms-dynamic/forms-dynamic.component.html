@@ -2,15 +2,33 @@
 
 <form (ngSubmit)="onSubmit()" >
 
-  <div *ngFor="let item of formulario.structure.fields" >
+  <div class="conatiner-form" *ngFor="let item of formulario.structure.fields" >
 
-    {{item.name}}
+    <!-- {{item.name}} -->
 
   <div *ngFor="let fields of item.fieldSection" >
 
-    {{fields.name}}
-
     <ng-container  [ngSwitch]="fields.type">
+
+      <div  class="items" *ngSwitchCase="'text'">
+
+        <input
+          [id]="fields.id"
+          [type]="fields.type"
+          [placeholder]="fields.placeholder"
+          [required]="fields.requiere"
+        />
+      </div>
+
+      <div class="items" *ngSwitchCase="'number'">
+
+        <input
+          [id]="fields.id"
+          [type]="fields.type"
+          [placeholder]="fields.placeholder"
+          [required]="fields.requiere"
+        />
+      </div>
 
     </ng-container>
 

@@ -2,5 +2,31 @@ p{
   text-align: center;
   color: rgb(15, 102, 115);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 19px;
+}
+
+.conatiner-form{
+  border: 1px solid rgb(8, 125, 146) ;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.items{
+    margin: 5px;
+    flex: 1 1 70%; /* Creando elementos flexibles con un ancho base */
+    box-sizing: border-box; /* Incluye padding y margin en el ancho total */
+}
+input {
+  width: 100%; /* Ancho completo */
+  padding: 15px; /* Espaciado interno */
+  margin-bottom: 15px; /* Espacio debajo del input */
+  border: 1px solid #0e6783; /* Borde */
+  border-radius: 6px; /* Bordes redondeados */
+  box-sizing: border-box; /* Asegura que el padding y el borde estén incluidos en el ancho total */
 }
