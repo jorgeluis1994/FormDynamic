@@ -1,1 +1,18 @@
-<p>forms-dynamic-list works!</p>
+<p>Formulario </p>
+
+
+<form [formGroup]="myForm" >
+
+  <div formArrayName="setcion">
+    <div *ngFor="let item of setcionArray.controls; let i = index" [formGroupName]="i">
+      <div>
+        {{i}}: {{item.get('id')?.value}}
+      </div>
+
+    </div>
+  </div>
+
+
+  <pre>{{ myForm.value | json }}</pre>
+
+</form>

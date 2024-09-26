@@ -30,6 +30,40 @@
         />
       </div>
 
+      <div class="items" *ngSwitchCase="'email'">
+
+        <input
+          [id]="fields.id"
+          [type]="fields.type"
+          [placeholder]="fields.placeholder"
+          [required]="fields.requiere"
+        />
+      </div>
+
+      <div class="items" *ngSwitchCase="'password'">
+
+        <input
+          [id]="fields.id"
+          [type]="fields.type"
+          [placeholder]="fields.placeholder"
+          [required]="fields.requiere"
+        />
+      </div>
+
+      <div class="items" *ngSwitchCase="'tel'">
+        <input
+          [id]="fields.id"
+          [type]="fields.type"
+          [placeholder]="fields.placeholder"
+          [required]="fields.requiere"
+        />
+
+
+      </div>
+
+
+
+
     </ng-container>
 
 
